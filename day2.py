@@ -1,7 +1,7 @@
 def part1():
     total = 1000
 
-    f = open("day2_input.txt", "r")
+    f = open("day2/day2_input.txt", "r")
     for line in f:
         arr = line.split()
 
@@ -37,7 +37,7 @@ def part2():
         
         return 1
 
-    f = open("day2_input.txt", "r")
+    f = open("day2/day2_input.txt", "r")
     for line in f:
         arr = [int(x) for x in line.split()]
 

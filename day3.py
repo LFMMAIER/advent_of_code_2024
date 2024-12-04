@@ -3,7 +3,7 @@ import re
 def part1():
     total = 0
 
-    f = open("day3_input.txt", "r")
+    f = open("day3/day3_input.txt", "r")
     for line in f:
         search = r"mul\(\d+,\d+\)"
         ret = re.findall(search, line)
@@ -22,7 +22,7 @@ def part2():
 
     enable = True
 
-    f = open("day3_input.txt", "r")
+    f = open("day3/day3_input.txt", "r")
     for line in f:
         search = r"mul\(\d+,\d+\)|do\(\)|don't\(\)"
         

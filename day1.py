@@ -4,7 +4,7 @@ def part1():
     left = []
     right = []
 
-    f = open("day1_input.txt", "r")
+    f = open("day1/day1_input.txt", "r")
     for line in f:
         l, r = line.split()
         left.append(int(l))
@@ -28,7 +28,7 @@ def part2():
     left = []
     right = []
 
-    f = open("day1_input.txt", "r")
+    f = open("day1/day1_input.txt", "r")
     for line in f:
         l, r = line.split()
         left.append(int(l))
